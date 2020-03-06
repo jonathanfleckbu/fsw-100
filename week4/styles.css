@@ -1,0 +1,112 @@
+
+nav {
+    position: fixed;
+    background: lightblue;
+
+}
+
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+}
+
+header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: rgba(95, 104, 100, 0.548);
+}
+
+.center {
+    width: 100%;
+    padding: 50px;
+    
+}
+
+img {
+    
+    background-color: rgb(48, 44, 44);
+    padding: 20px;
+    width: 175px;
+}
+ /* I could not figure out for the life of me what I did that wouldnt allow me to wrap the text. Do you have any advice as to what I may have done or not done that wouldnt allow me to wrap the text? */
+
+.center > p {
+    background-color: lightblue;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    background: grey;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+}
+
+.grid-container > div {
+    padding: 1em;
+    text-align: center;
+}
+
+.grid-item1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: #f5c6d6;
+}
+
+.grid-item2 {
+    background-color: #ee2e84;
+}
+
+.grid-item3 {
+    background-color: #ee2e84;
+}
+
+.grid-item4 {
+    background-color: #ee2e84;
+}
+
+.grid-item5 {
+    background-color: #ee2e84;
+}
+
+.grid-item6 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #85CFD8;
+}
+
+.grid-item7 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: #85CFD8;
+}
+
+.grid-item8 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: #8DC63F;
+}
+
+.grid-item9 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: #E76E34
+}
