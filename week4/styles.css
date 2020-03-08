@@ -25,12 +25,13 @@ header {
 }
 
 img {
-    
+    float: left;
     background-color: rgb(48, 44, 44);
     padding: 20px;
+    margin-right: 30px;
     width: 175px;
 }
- /* I could not figure out for the life of me what I did that wouldnt allow me to wrap the text. Do you have any advice as to what I may have done or not done that wouldnt allow me to wrap the text? */
+ 
 
 .center > p {
     background-color: lightblue;
